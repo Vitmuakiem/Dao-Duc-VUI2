@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Bài 1.15</title>
+</head>
+
+<body>
+
+<!-- PHẦN A -->
+<table border="1" width="700" align="center" cellpadding="10">
+<tr>
+
+<td width="200" valign="top">
+Hệ thống chính trị<br><br>
+Tổng quan về tỉnh<br><br>
+Công dân<br><br>
+Doanh nghiệp
+</td>
+
+<td>
+
+<h2 align="center">GỬI GÓP Ý - LIÊN HỆ</h2>
+
+<form>
+
+Nhập họ tên:
+<input type="text"><br><br>
+
+Email:
+<input type="text"><br><br>
+
+Điện thoại:
+<input type="text"><br><br>
+
+Năm sinh:
+<select>
+<option>1993</option>
+<option>1994</option>
+<option>1995</option>
+</select>
+
+<br><br>
+
+Giới tính:
+<input type="radio" name="gt"> Nam
+<input type="radio" name="gt"> Nữ
+
+<br><br>
+
+Nội dung:<br>
+<textarea rows="4" cols="40"></textarea>
+
+<br><br>
+
+<button>Gửi câu hỏi</button>
+<button type="reset">Nhập lại</button>
+
+</form>
+
+</td>
+</tr>
+</table>
+
+<br><br>
+
+<!-- PHẦN B -->
+<table border="1" width="900" align="center" cellpadding="10">
+
+<tr>
+<td colspan="2">
+<img src="D:\daoduc-tt1d24\image\porche.png" width="100%">
+</td>
+</tr>
+
+<tr>
+
+<td width="200" valign="top">
+Trang chủ<br><br>
+Giới thiệu SP<br><br>
+Các đại lý<br><br>
+Dịch vụ<br><br>
+Hợp tác<br><br>
+Góp ý<br><br>
+Quảng cáo
+</td>
+
+<td>
+
+<h2 align="center">HỘP THƯ GÓP Ý</h2>
+
+<form>
+
+Họ tên:
+<input type="text"><br><br>
+
+Giới tính:
+<input type="radio" name="gt2"> Nam
+<input type="radio" name="gt2"> Nữ
+
+<br><br>
+
+Hộ khẩu:
+<select>
+<option>Thành phố HCM</option>
+<option>Hà Nội</option>
+<option>Đà Nẵng</option>
+</select>
+
+<br><br>
+
+Góp ý về lĩnh vực:
+<input type="checkbox"> Dịch vụ
+<input type="checkbox"> Sản phẩm
+<input type="checkbox"> Loại khác
+
+<br><br>
+
+Nội dung:<br>
+<textarea rows="4" cols="50"></textarea>
+
+<br><br>
+
+<button>Gửi</button>
+<button type="reset">Xóa</button>
+
+</form>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+</html>
